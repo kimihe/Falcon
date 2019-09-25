@@ -22,7 +22,7 @@ def split_list(list_to_split, target_n, result):
 
 
 class ThisRankDataset(Dataset):
-    """产生数据倾斜，每一个learner中含有固定的label的数据集"""
+    """产生数据倾斜，每一个learner中含有固定的label的数据集 - Data skew, each learner owns a certain subset according with fixed labels"""
 
     def __init__(self, all_data, labels, transform=None):
 
