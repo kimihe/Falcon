@@ -4,9 +4,9 @@
 A computation-parallel deep learning architecture.
 
 # Quick Start of SSP Demo
-The SSP demo is a part of Falcon, please find it in the directory `SSP_Demo` (all the demo files and related dataset are in this directory).
+The SSP demo is a part of Falcon, please find it in the directory `SSP_Demo` (all the demo files and related datasets are in this directory).
 
-We hope to this can help researchers to start their first distrtibuted DL training in SSP scheme via [PyTorch](https://pytorch.org/).
+We hope this can help researchers to start their first distrtibuted DL training in SSP scheme via [PyTorch](https://pytorch.org/).
 
 The implementation guideline follows the papers as:
 
