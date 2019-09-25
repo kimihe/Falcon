@@ -8,6 +8,11 @@ The SSP demo is a part of Falcon, please find it in the directory `SSP_Demo` (al
 
 We hope to this can help researchers to start their first distrtibuted DL training in SSP scheme via [PyTorch](https://pytorch.org/).
 
+The implementation guideline follows the papers as:
+
+* Q. Ho, J. Cipar, H. Cui, J. K. Kim, S. Lee, P. B. Gibbons, G. A. Gibson, G. R. Ganger, and E. P. Xing, "[More effective distributed ml via a stale synchronous parallel parameter server](https://dl.acm.org/citation.cfm?id=2999748)," in *Proc. NIPS*, Lake Tahoe, Nevada, USA, 2013.
+* W. Zhang, S. Gupta, X. Lian, and J. Liu, "[Staleness-aware async-sgd for distributed deep learning](https://dl.acm.org/citation.cfm?id=3060832.3060950)," in *Proc. IJCAI*, New York, USA, 2016.
+
 # Dataset
 Two classical datasets are supported: MNIST and CIFAR-10.
 
